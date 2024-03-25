@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "c:\\Users\\Admin\\Desktop\\gitpull\\Ceng382_23_24_s_201911062\\RazorPagesMovie\\wwwroot\\js\\sum.js",
+      "PackagePath": "staticwebassets\\js\\sum.js"
+    },
+    {
       "Id": "c:\\Users\\Admin\\Desktop\\gitpull\\Ceng382_23_24_s_201911062\\RazorPagesMovie\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

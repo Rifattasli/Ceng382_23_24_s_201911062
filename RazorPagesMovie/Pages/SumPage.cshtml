@@ -2,3 +2,69 @@
 @model MyApp.Namespace.SumPageModel
 @{
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Elements and Calculate Sum</title>
+    
+    <script src="~/js/sum.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        form {
+            margin-top: 20px;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        input[type="text"] {
+            padding: 10px;
+            margin: 10px 0;
+            width: calc(100% - 22px); 
+            box-sizing: border-box; 
+        }
+        #sumResult {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1>Welcome to My Page</h1>
+<p>This is a paragraph that will be toggled.</p>
+<div>This is a div that will be toggled.</div>
+
+
+<button id="toggleButton">Toggle Elements</button>
+
+
+<button id="showFormButton">Show Form</button>
+<form id="sumForm" style="display: none;">
+    <input type="text" id="input1" placeholder="Enter a number">
+    <input type="text" id="input2" placeholder="Enter another number">
+    <button type="button" id="calculateButton">Calculate Sum</button>
+</form>
+<p id="sumResult"></p>
+
+</body>
+</html>
